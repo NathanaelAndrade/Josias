@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#865905, #382d03);
+    /* Altere as cores de #262626 para a cor desejada no início do degradê 
+       e #000000 para a cor desejada no final do degradê. */
+    color: #fff; /* Cor do texto, se necessário */
+    font-family: Arial, sans-serif; /* Escolha da fonte, se necessário */
+}
+
+.menu {
+    display: flex;
+   
+}
+
+.menuItem {
+    text-align: center;
+    margin: 10px;
+}
+
+.menuItem img {
+    border-radius: 10%;
+    overflow: clip;
+    width: 300px; /* Largura inicial da imagem */
+    transition: transform 0.5s; /* Adiciona uma transição suave */  
+
+
+}
+
+.menuItem img:hover{
+    transform: scale(1.2); 
+}
+.menuItem p {
+    margin: 50px 0;
+    background-color: black;
+    border-radius: 10%;
+    font-size: 24px;
+}
